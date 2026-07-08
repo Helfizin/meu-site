@@ -1,0 +1,125 @@
+body{
+   background: #000000;
+}
+
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: rgb(0, 0, 0,.90);
+    border-bottom: 1px solid #1f1f1f;
+   
+    
+}
+
+.logo{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo span{
+    color: #e50914;
+    
+   }
+
+
+   .menu {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 18px;
+    transition: .5s;
+    text-align: center;
+
+}
+
+.menu a:hover{
+    color: #e50914;
+    font-size: 17.6px;
+    
+    
+
+}
+
+    
+/**********************************************************************************************************************************************/
+/** pesquisa **/
+
+.Pesquisa{
+    background: #111;
+    padding: 10px 35px;
+    border-radius: 20px;
+    border: 1px solid #e50914;
+    box-shadow: 0 0 15px rgb(255, 0, 0);
+    margin-right: -77px;
+    
+}
+
+.Pesquisa input{
+    background:none;
+    outline: none;
+    color: white;
+    border:none;
+    width: 290px;
+    padding: 10px;
+    height: 20px;
+}
+
+.Pesquisa input::placeholder{
+    color: #e50914;
+}
+.Pesquisa img{
+    width: 19px;
+}
+#btnPesquisar{
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: -40px;
+}
+
+#btnPesquisar:hover{
+    transform: scale(1.1);
+}
+/** pesquisa **/
+
+
+.footer{
+    background: #0d0d0d;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 2px solid #e50914;
+    border-left: 2px solid #e50914;
+    border-right: 2px solid #e50914;
+    font-family: Arial,sans-serif;
+}
+
+.footer p{
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.footer p b{
+    color: #e50914;
+}
+
+ .footer-content{
+    max-width: 900px;
+    margin: auto;
+}

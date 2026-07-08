@@ -1,0 +1,247 @@
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="img/icon/logo.png" type="image/x-icon">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="nav/style.css">
+            <title>Sure Flix-Assiste Descobre o Certo</title>
+        </head>
+        <body>
+
+
+        <!------------------------------------------------------------------------------------------------------------------->
+        <!--nave -->
+
+        <nav class="navbar">
+            
+            <div class="logo">
+                
+                <span> <img src="img/icon/logo.png" alt="logo"> Sure</span> FL<span>I</span>X <span>+</span>
+            </div>
+
+            <ul class="menu">
+                 
+                <li><a href="#">Início</a></li>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#seres">Séries</a></li>
+                <li><a href="#Animes">Animes</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+
+           
+
+           <!-- pesquisa-->
+            <form class="Pesquisa">
+
+            <input type=" text" id="busca" placeholder="Pesquisar Filmes, Séries e Animes...">
+
+            <button id="btnPesquisar">
+                <img src="img/lupa.png" alt="lupa">
+            </button>
+            <img src="img/icon/logo.png" alt="logo">
+
+            </form>
+
+
+            <!-- Toast -->
+            <div id="toast" class="toast">
+                <span id="toast-message"></span>
+            </div>
+            <!--fim de pesquisa--> 
+           
+        </nav>
+
+        <!--fim de nave -->
+        <!------------------------------------------------------------------------------------------------------------------>
+        
+
+         <!------------------------------------------------------------------------------------------------------------------------------------>
+        
+          <!--SECTION HERO -->
+        <section class="hero">
+ 
+            
+
+            <div class="hero-content">
+
+                <h3>FILME EM DESTAQUE</h3>
+<br>
+<br>
+<br>
+                <h1>THE BATMAN</h1>
+<br>
+<br>
+<br>
+
+                <p class="descricao">
+                    Gotham está mergulhada no caos. Quando um assassino misterioso 
+                    <p>começa a eliminar membros da elite da cidade, Batman é forçado <br>a seguir um rastro de pistas que revela uma conspiração de corrupção,</p>
+                     mentiras e segredos familiares.Uma jornada intensa de investigação,<br> ação e suspense que redefine o legado do Cavaleiro das Trevas.
+                </p>
+<br>
+<br>
+<br>
+                <div class="buttons">
+
+                    <a href="filme/index.html"><button>Assistir agora</button></a>
+                    <div class="info">
+                    
+                        <a href="#"> <button>+ Mais informações</button></a>
+                        <span class="mensagem"> Site Criado Por Helfy M. Carvalho castro</span>
+                </div>
+               
+                    </div>
+                      
+            </div>
+
+            
+        </section>
+        <!-- FIM DE SECTION HERO -->
+<main>
+
+        <!-- Categorias-->
+
+        <div id="filmes">
+
+            <h2>Populares/ Filmes</h2>
+        <!---------------------------------------------------------------------------------------------------------------------------------->   
+            <button class="btn left" onclick="scrollMovies(-300)">
+                
+            </button>
+            
+                    <div class="movies" id="movies">
+                         <ul>
+                <li><a href="./content/index.html"><img src="img/filmes/Detpool.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/filmes/bizouro.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/filmes/marvel.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/filmes/venom.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/filmes/det22.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/filmes/wakanda.jpg"alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/filmes/nova.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/filmes/curinga.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+               
+            </ul>
+                    </div>
+          
+
+            <button class="btn right" onclick="scrollMovies(300)">
+               
+            </button>
+     
+        </div>
+        <script>
+            function scrollMovies(valor){
+                document.getElementById("movies")
+                .scrollBy({
+                    left: valor, behavior: "smooth"
+                });
+            }
+        </script>
+
+ <!---------------------------------------------------------------------------------------------------------------------------------->   
+        
+        <div id="seres">
+
+            <h2>Populares/ Séries</h2>
+            <ul>
+                <li><a href="./content/index.html"><img src="img/seres/cassadores.jpg"       alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/seres/la casa de papel.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/seres/origem.jpg"           alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/seres/caes de caça.jpg"     alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                
+            </ul>
+
+            <ul>
+                <li><a href="./content/index.html"><img src="img/seres/lucifer.jpg"   alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/seres/alice.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/seres/100.jpg  "  alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/seres/herois.jpg"  alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                
+            </ul>
+   
+            
+            
+
+        </div>
+
+
+         <div id="Animes">
+
+            <h2>Populares/ Animes</h2>
+
+            
+ <!---------------------------------------------------------------------------------------------------------------------------------->   
+            <button class="btn2 left" onclick="scrollMovie(-300)">
+                
+            </button>
+            
+                    <div class="movie" id="movie">
+                         <ul>
+                <li><a href="./content/index.html"><img src="img/animes/kaijo.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/animes/Devil my cry.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/animes/gajakuta.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/animes/solo levil.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/animes/juju.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/animes/your name.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/animes/demonslaer.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+                <li><a href="./content/index.html"><img src="img/animes/naruto.jpg" alt=""></a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt <h4>/ DUB /</h4></li>
+           
+
+                        </ul>
+                    </div>
+          
+
+            <button class="btn2 right" onclick="scrollMovie(300)">
+               
+            </button>
+     
+        </div>
+        <script>
+            function scrollMovie(valor){
+                document.getElementById("movie")
+                .scrollBy({
+                    left: valor, behavior: "smooth"
+                });
+            }
+        </script>
+        </main>
+
+ <!---------------------------------------------------------------------------------------------------------------------------------->   
+     
+                
+            
+
+            
+
+        <div id="sobre">
+        <footer class="footer">
+                <span> <img src="img/icon/logo.png" alt="logo">
+                <div class="footer-content">
+                    <p># 2026 <b>Sure Flix</b> - Projeto desenvolvido para fins educativos.</p>
+                    <p>Este Site é apenas um protótico e não permite assistir filmes ou séries</p>
+                      
+                    <p>Desenvolvido por <b>Helfy Zin</b>.</p>
+                   <h3> <p><b>Contacto//</b> +244 952078385 // +244 923600425 </p></h3>
+                </div>
+
+            </footer>
+        </div>
+  
+
+           
+
+
+
+
+
+
+
+     <!--------------------------------------------------------------------------------------------------------------------------------------->
+        
+    <script src="js/script.js"></script>
+
+    
+    </body>
+        </html>

@@ -1,0 +1,20 @@
+
+
+.vidio{
+    width: 1100px;
+    height: 500px;
+     border: 2px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    margin: 80px;
+    margin-left: 130px;
+}
+
+.vidio video{
+     width: 1075px;
+    height: 480px;
+    border-radius: 15px;
+}

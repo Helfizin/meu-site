@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/**********************************************************************************************************************************************/
+
+.hero{
+    height: 650px;
+    background: url(2batman.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+    padding-left: 80px;
+    position: relative;
+}
+
+ .hero-content{
+   
+    color: white;
+ }
+.hero-content h1{
+    font-size:  2rem;
+    font-weight: 800px;
+    letter-spacing: 3px;
+    line-height: 1px;
+    margin-bottom: 20px;
+     text-shadow:0 0 15px rgb(255, 0, 0);;
+    text-transform: uppercase;
+}
+.hero-content h3{
+
+    font-size: 3rem;
+    color: #e50914;
+    font-weight: 600px;
+    letter-spacing: 2px;
+   
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.hero-content .buttons a{
+  text-decoration: none;
+  
+  padding: 20px;
+   
+}
+
+.hero-content .buttons button{
+    background: #e50914;
+   color: white;
+    padding: 16px 45px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+      gap: 50px;
+    transition: 0.7s;
+}
+
+.hero-content .buttons button:hover{
+    background: #fff;
+    color: #e50914;
+    transform: translateY(-20px);
+    
+}
+.hero-content .info .mensagem{
+    display: none;
+    background:#e50914;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    white-space: nowrap;
+}
+.info{
+    position: relative;
+    
+    display: inline-block;
+}
+.info:hover .mensagem{
+    
+    display: block;
+}
+.descricao {
+    color: #e50914;
+}
+/**********************************************************************************************************************************************/
+
+#filmes{
+    width: 100%;
+    height: 650px;
+    
+    color: white;
+   
+}
+
+#filmes h2{
+    color: #e50914;
+    margin: 50px 70px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+#filmes ul{
+    display: flex;
+    padding: 35px;
+    margin-top:10px;
+    list-style: none;
+    
+}
+  
+#filmes ul li{
+    height: 500px;
+   
+    margin: 10px;
+    border-radius: 20px;
+     margin-top: 0px;
+}
+
+#filmes ul li h4{
+    color: green;
+    
+}
+
+#filmes ul li img{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 20px ;
+    transition: 0.7s;
+    
+   
+}
+
+#filmes ul li img:hover{
+
+
+ box-shadow: 0 0 15px rgb(255, 0, 0);
+ transform: translateY(-40px);
+}
+/*************************************************/
+    
+    #seres{
+    width: 100%;
+    height: 650px;
+   
+    color: white;
+    
+}
+
+#seres h2{
+    color: #ffffff;
+    margin: 50px 70px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+#seres ul{
+    display: flex;
+    padding: 35px;
+    margin-top:10px;
+    list-style: none;
+ 
+}
+  
+#seres ul li{
+    height: 500px;
+   
+    margin: 10px;
+    border-radius: 20px;
+     margin-top: 0px;
+}
+
+#seres ul li h4{
+    color: green;
+    
+}
+
+#seres ul li img{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 20px ;
+    transition: 0.7s;
+   
+}
+
+#seres ul li img:hover{
+
+ box-shadow: 0 0 15px rgb(255, 0, 0);
+ transform: translateY(-60px);
+}
+/*************************************************/
+
+#Animes{
+    width: 100%;
+    height: 650px;
+                       
+    color: white;
+    margin-top: 39%;
+       margin-bottom: 100px;
+
+}
+
+#Animes h2{
+    color: #e50914;
+    margin: 50px 70px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+#Animes ul{
+    display: flex;
+    padding: 35px;
+    margin-top:10px;
+    list-style: none;
+}
+  
+#Animes ul li{
+    height: 500px;
+   
+    margin: 10px;
+    border-radius: 20px;
+     margin-top: 0px;
+}
+
+#Animes ul li h4{
+    color: green;
+    
+}
+
+#Animes ul li img{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 20px ;
+    transition: 0.7s;
+   
+}
+
+#Animes ul li img:hover{
+
+box-shadow: 0 0 15px rgb(255, 0, 0);
+ transform: translateY(-60px);
+}
+/*************************************************/
+#filmes{
+    position: relative;
+}
+.movies{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.movies::-webkit-scrollbar{
+    display: none;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.left{
+    left:10px;
+    background: linear-gradient(rgb(245, 12, 12),rgb(19, 8, 8));
+     
+     width: 40px;
+     height: 40px;
+     z-index: 9999;
+}
+
+.right{
+    right: 10px;
+     background: linear-gradient(rgb(245, 12, 12),rgb(19, 8, 8));
+    
+     width: 40px;
+     height: 40px;
+     z-index: 9999;
+}
+
+/****************************/
+
+#Animes{
+    position: relative;
+}
+.movie{
+    
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.movie::-webkit-scrollbar{
+    display: none;
+}
+.btn2{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.left{
+    left:10px;
+     background: linear-gradient(rgb(245, 12, 12),rgb(19, 8, 8));
+     
+     width: 40px;
+     height: 40px;
+     z-index: 9999;
+}
+
+.right{
+    right: 10px;
+    background: linear-gradient(rgb(245, 12, 12),rgb(19, 8, 8));
+  
+     width: 40px;
+     height: 40px;
+     z-index: 9999;
+}
